@@ -1,0 +1,90 @@
+body {
+  --bs-card-bg: rgba(200,230,240, 0.6);
+  margin: 0;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-image: url(bg3.jpg);
+  background-size: cover;
+  min-height: 100vh
+}
+
+.card-body {
+  background-color: rgba(200,230,240, 0.5);
+}
+
+.btn-primary {
+  /* border: 2px solid #f5ea2e;
+  background-color: #f75700;
+  transition-duration: 200ms;
+  color: #e7e5e8;
+  font-weight: 700; */
+}
+
+.btn-primary:hover {
+  border: 2px solid #f5ea2e;
+  background-color: #f5ea2e;
+  color: black;
+}
+
+.btn-outline-primary {
+  border: 2px solid #f75700;
+  transition-duration: 200ms;
+  color: black;
+  font-weight: 700;
+}
+
+.btn-outline-primary:hover {
+  border: 2px solid #f75700;
+  background-color: #f75700;
+  color: black;
+}
+
+p {
+  color: black;
+  
+}
+
+button {
+  border-radius: 0px;
+}
+
+.coin {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: -3px;
+}
+
+.coinSpan {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Bungee Spice";
+}
+
+.pushable {
+  background: #f5ea2e;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #f75700;
+  transform: translateY(-3px);
+  color: black;
+  font-size: 14px;
+}
+
+.pushable:active .front {
+  transform: translateY(-1px);
+}
