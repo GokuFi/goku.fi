@@ -23,8 +23,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.D5CWUA4S.js"),
-						import("./_app/immutable/entry/app.BPP43OW8.js")
+						import("./app/immutable/entry/start.D5CWUA4S.js"),
+						import("./app/immutable/entry/app.BPP43OW8.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
