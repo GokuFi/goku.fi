@@ -6,3 +6,4 @@ rm *.svg
 rm -rf chars/
 rm -rf pools/
 cp ../goku/client/build/* ./ -rf
+mv _app app
